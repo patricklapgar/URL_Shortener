@@ -4,7 +4,7 @@
   "description": "URL_Shortener App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/patricklapgar/URL_Shortener/issues"
   },
-  "homepage": "https://github.com/patricklapgar/URL_Shortener#readme"
+  "homepage": "https://github.com/patricklapgar/URL_Shortener#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
